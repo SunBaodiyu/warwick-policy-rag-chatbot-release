@@ -41,12 +41,23 @@ If the hosted demonstration is unavailable, this repository contains the applica
 
 The original downloaded HTML files are not published because saved webpages can contain account/session metadata. The runtime does not require them because the processed chunks and embeddings are included. See [the release data note](docs/release_data_note.md).
 
+## System requirements
+
+- 64-bit Windows or Linux
+- At least 8 GB RAM
+- At least 10 GB of available disk space
+- Internet access during the initial setup
+- Approximately 15–30 minutes for the first installation and model downloads
+
+No GPU is required. The prototype runs on CPU.
+
 ## Quick start on Windows
 
 ### 1. Install prerequisites
 
 Install:
 
+- [Git for Windows](https://git-scm.com/download/win)
 - [Python 3.11](https://www.python.org/downloads/)
 - [Ollama for Windows](https://ollama.com/download)
 
@@ -91,6 +102,9 @@ Open [http://localhost:8501](http://localhost:8501) if the browser does not open
 ## Quick start on Ubuntu/Linux
 
 ```bash
+sudo apt update
+sudo apt install -y git python3-venv
+
 git clone https://github.com/SunBaodiyu/warwick-policy-rag-chatbot-release.git
 cd warwick-policy-rag-chatbot-release
 
