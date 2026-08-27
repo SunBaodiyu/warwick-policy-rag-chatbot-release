@@ -1,0 +1,272 @@
+[
+  {
+    "question_id": "FINAL-IMP02-Q01",
+    "policy_id": "IMP02",
+    "question": "What additional risks must be considered when using AI and publishing its output?",
+    "expected_answer": "Users must consider potential exposure to legal penalties, financial forfeiture and material loss resulting from failure to comply with industry laws and regulations.",
+    "evidence_section": "7",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP02-Q02",
+    "policy_id": "IMP02",
+    "question": "May AI be used to portray a living or deceased person as holding an opinion that is not genuinely theirs?",
+    "expected_answer": "No. AI must not misrepresent the opinions of a living or deceased person or attribute those opinions to that person as their original view.",
+    "evidence_section": "6.2",
+    "question_type": "paraphrase",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP02-Q03",
+    "policy_id": "IMP02",
+    "question": "A proposed AI deployment would create unfair or inequitable conditions for some participants. Is this permitted?",
+    "expected_answer": "No. AI must not be used to create unfair or inequitable conditions for users or participants.",
+    "evidence_section": "5",
+    "question_type": "scenario",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP02-Q04",
+    "policy_id": "IMP02",
+    "question": "When may information documenting the use of AI in a process be withheld, and what requirement still applies?",
+    "expected_answer": "It may be withheld when disclosure would prejudice the University's interests, but the requirements of UK GDPR must still be met.",
+    "evidence_section": "5",
+    "question_type": "scope_or_condition",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP02-Q05",
+    "policy_id": "IMP02",
+    "question": "What minimum confidence score must AI-generated material achieve before it may be published?",
+    "expected_answer": "The policies do not specify a minimum confidence score for publishing AI-generated material.",
+    "evidence_section": "",
+    "question_type": "unanswerable",
+    "answerable": false
+  },
+  {
+    "question_id": "FINAL-IMP03-Q01",
+    "policy_id": "IMP03",
+    "question": "Who grants authorisation to manage University user accounts?",
+    "expected_answer": "The Chief Digital Officer or their designate grants authorisation to manage accounts.",
+    "evidence_section": "6.2",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP03-Q02",
+    "policy_id": "IMP03",
+    "question": "How are access-permission review frequencies determined for systems generally, privileged accounts and high-risk systems?",
+    "expected_answer": "Reviews must occur at least annually and at least monthly for privileged accounts. Reviews of high-risk systems must be as frequent as possible, with frequency set by the system owner according to risk.",
+    "evidence_section": "7.10",
+    "question_type": "paraphrase",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP03-Q03",
+    "policy_id": "IMP03",
+    "question": "Monitoring detects unusual activity on a service account. What action is required?",
+    "expected_answer": "The anomalous activity must be investigated promptly; service accounts must be monitored continuously for unusual activity.",
+    "evidence_section": "9.4",
+    "question_type": "scenario",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP03-Q04",
+    "policy_id": "IMP03",
+    "question": "When may a system administrator use a privileged account instead of their ordinary user account?",
+    "expected_answer": "Only for specific administrative tasks requiring special privileges. At all other times, the administrator must use their ordinary user account.",
+    "evidence_section": "8.1",
+    "question_type": "scope_or_condition",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP03-Q05",
+    "policy_id": "IMP03",
+    "question": "What exact naming convention must be used for service-account identifiers?",
+    "expected_answer": "The policies do not specify a naming convention; the only stated identifier-related requirement is that each service account has a unique identifier.",
+    "evidence_section": "",
+    "question_type": "unanswerable",
+    "answerable": false
+  },
+  {
+    "question_id": "FINAL-IMP06-Q01",
+    "policy_id": "IMP06",
+    "question": "What tasks are system administrators designated to perform, and what additional responsibilities may they have?",
+    "expected_answer": "System administrators perform system management, maintenance and support. They may also have responsibilities for system design, deployment, development and provisioning.",
+    "evidence_section": "3.3",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP06-Q02",
+    "policy_id": "IMP06",
+    "question": "What kinds of digital services count as systems, and are individual hardware assets included?",
+    "expected_answer": "Systems are multi-user services or applications that share resources, including software platforms, databases, cloud services and networked applications. Individual hardware assets are not included.",
+    "evidence_section": "3.1",
+    "question_type": "paraphrase",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP06-Q03",
+    "policy_id": "IMP06",
+    "question": "A department plans to migrate and upgrade a shared system. What process, review and approval are required?",
+    "expected_answer": "The change must follow the departmental change-management process, be reviewed against current business-continuity planning, and be approved by the System Owner or their delegate.",
+    "evidence_section": "6.1",
+    "question_type": "scenario",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP06-Q04",
+    "policy_id": "IMP06",
+    "question": "For which systems are disaster recovery plans mandatory, and what must owners do with those plans?",
+    "expected_answer": "Disaster recovery plans are mandatory for priority systems. System owners must ensure the plans are written, updated, implemented in a disaster and tested regularly.",
+    "evidence_section": "6.1",
+    "question_type": "scope_or_condition",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP06-Q05",
+    "policy_id": "IMP06",
+    "question": "What exact retention period applies to system access and activity logs?",
+    "expected_answer": "The policies require system logging and access logs but do not specify an exact retention period.",
+    "evidence_section": "",
+    "question_type": "unanswerable",
+    "answerable": false
+  },
+  {
+    "question_id": "FINAL-IMP07-Q01",
+    "policy_id": "IMP07",
+    "question": "What responsibilities does the Data Protection Officer have under the policy?",
+    "expected_answer": "The officer advises on legal compliance, serves as a contact for the regulator and data-subject complaints or claims, monitors compliance, and reports to the Audit and Risk Committee.",
+    "evidence_section": "4.3",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP07-Q02",
+    "policy_id": "IMP07",
+    "question": "How does a privacy notice differ from a policy governing personal-data handling?",
+    "expected_answer": "A privacy notice is a separate written statement informing data subjects how their personal data is processed; this policy is not such a notice.",
+    "evidence_section": "6.1",
+    "question_type": "paraphrase",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP07-Q03",
+    "policy_id": "IMP07",
+    "question": "A department receives a request from an individual to exercise a statutory personal-data right. What must it do, and by when?",
+    "expected_answer": "It must act without undue delay and notify the central team as soon as possible so the University can meet the one-month statutory deadline.",
+    "evidence_section": "15.2",
+    "question_type": "scenario",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP07-Q04",
+    "policy_id": "IMP07",
+    "question": "How often must international-transfer safeguards be re-evaluated, and what event requires an additional review?",
+    "expected_answer": "Safeguards must remain under ongoing review, be re-evaluated at least every three years, and be reviewed whenever a substantive legal, regulatory or operational change affects the transfer.",
+    "evidence_section": "9.2",
+    "question_type": "scope_or_condition",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP07-Q05",
+    "policy_id": "IMP07",
+    "question": "What fee must an individual pay to exercise the right of access to their personal data?",
+    "expected_answer": "The policies do not specify a fee for exercising the right of access to personal data.",
+    "evidence_section": "",
+    "question_type": "unanswerable",
+    "answerable": false
+  },
+  {
+    "question_id": "FINAL-IMP08-Q01",
+    "policy_id": "IMP08",
+    "question": "For how long is usage data from each ID card reader normally retained?",
+    "expected_answer": "Records of ID card reader use are normally retained for 31 days. They may be retained longer for investigations following incidents.",
+    "evidence_section": "7.1",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP08-Q02",
+    "policy_id": "IMP08",
+    "question": "Do University-wide access rules remove the need to follow extra controls imposed by a department or team?",
+    "expected_answer": "No. Individuals must also follow any additional controls required by their department, team, function or business unit.",
+    "evidence_section": "2.2",
+    "question_type": "paraphrase",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP08-Q03",
+    "policy_id": "IMP08",
+    "question": "A team films in a University room where sensitive information may be visible. What must happen before the footage is distributed?",
+    "expected_answer": "A University member must review the content before distribution to ensure that sensitive information has not been captured.",
+    "evidence_section": "7.1",
+    "question_type": "scenario",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP08-Q04",
+    "policy_id": "IMP08",
+    "question": "Which University-managed computers are exempt from the mandatory five-minute screen lock, and when must devices be locked?",
+    "expected_answer": "Student devices and computers in teaching work areas are exempt from the mandatory five-minute screen lock. Devices must be locked whenever they are out of the individual's sight.",
+    "evidence_section": "6.1",
+    "question_type": "scope_or_condition",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP08-Q05",
+    "policy_id": "IMP08",
+    "question": "Which University team issues a replacement ID card after an access card is reported lost or stolen?",
+    "expected_answer": "The policies require lost or stolen access cards to be reported to Community Safety but do not identify which team issues replacements.",
+    "evidence_section": "",
+    "question_type": "unanswerable",
+    "answerable": false
+  },
+  {
+    "question_id": "FINAL-IMP09-Q01",
+    "policy_id": "IMP09",
+    "question": "What conditions must very occasional personal use of University information and communication facilities satisfy?",
+    "expected_answer": "It must not interfere with work, breach University policy, use resources excessively, or create additional costs or support burdens.",
+    "evidence_section": "8.1",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP09-Q02",
+    "policy_id": "IMP09",
+    "question": "May a USB storage device be attached to equipment that processes University data without advance permission?",
+    "expected_answer": "No. A data-storing peripheral may be connected only with prior authorisation from the Information Security Risk and Compliance team, regardless of the equipment's location.",
+    "evidence_section": "9.3",
+    "question_type": "paraphrase",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP09-Q03",
+    "policy_id": "IMP09",
+    "question": "A staff member is about to leave an ordinary logged-in workstation unattended. What must they do?",
+    "expected_answer": "They must lock it before leaving it unattended. Purpose-built accessible devices such as kiosks and public display screens are excepted.",
+    "evidence_section": "11.1",
+    "question_type": "scenario",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP09-Q04",
+    "policy_id": "IMP09",
+    "question": "Under what condition may a personally owned laptop or tablet be connected to the University wireless network?",
+    "expected_answer": "It may be connected only if it complies with all relevant policies.",
+    "evidence_section": "9.2",
+    "question_type": "scope_or_condition",
+    "answerable": true
+  },
+  {
+    "question_id": "FINAL-IMP09-Q05",
+    "policy_id": "IMP09",
+    "question": "What specific disciplinary penalty is automatically imposed for a first breach involving University digital services?",
+    "expected_answer": "The policies do not specify an automatic penalty for a first breach; they state that certain significant-risk breaches are subject to appropriate disciplinary procedures or contractual terms.",
+    "evidence_section": "",
+    "question_type": "unanswerable",
+    "answerable": false
+  }
+]

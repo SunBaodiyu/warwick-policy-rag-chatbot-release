@@ -1,0 +1,10 @@
+{
+  "created_at_utc": "2026-07-20T20:11:37.703100+00:00",
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "sentence_transformers_version": "5.6.0",
+  "device": "cpu",
+  "document_count": 6,
+  "chunk_count": 268,
+  "embedding_dimension": 384,
+  "chunking_strategy": "policy"
+}

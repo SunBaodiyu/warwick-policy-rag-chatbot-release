@@ -1,0 +1,1 @@
+anonymous_id,question_id,question_type,answerable,expected_answer,system_answer,cited_policy,cited_section,correctness_0_2,completeness_0_2,faithfulness_0_1,citation_correct_0_1,refusal_appropriate_0_1,hallucination_present_0_1,error_category,notes

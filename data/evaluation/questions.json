@@ -1,0 +1,153 @@
+[
+  {
+    "question_id": "IMP02-Q01",
+    "policy_id": "IMP02",
+    "question": "Who is responsible for the input, output, and use of AI tools?",
+    "expected_answer": "Users of AI tools are responsible for the input they provide, the output generated, and how that output is used. LLM output should be checked for accuracy.",
+    "evidence_section": "4.2",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "IMP02-Q02",
+    "policy_id": "IMP02",
+    "question": "Can passwords and usernames be entered into AI software without prior approval?",
+    "expected_answer": "No. Passwords and usernames must not be entered into AI software without prior approval from IDG or the Research Ethics Committee.",
+    "evidence_section": "6.1",
+    "question_type": "direct",
+    "answerable": true
+  }
+,
+  {
+    "question_id": "IMP06-Q01",
+    "policy_id": "IMP06",
+    "question": "How frequently must all systems undergo vulnerability scanning?",
+    "expected_answer": "All systems must undergo vulnerability scanning at least weekly.",
+    "evidence_section": "6.1",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "IMP06-Q02",
+    "policy_id": "IMP06",
+    "question": "How frequently must business-critical or high-risk systems undergo penetration testing?",
+    "expected_answer": "Business-critical or high-risk systems must undergo penetration testing at least yearly, using approved external providers or internal resources.",
+    "evidence_section": "6.1",
+    "question_type": "direct",
+    "answerable": true
+  }
+,
+  {
+    "question_id": "IMP02-Q03",
+    "policy_id": "IMP02",
+    "question": "A Professional Services team wants to use an existing AI tool for a new purpose. What approval or process is required?",
+    "expected_answer": "The new use must go through the appropriate procurement process, and use of AI tools within Professional Services is subject to IDG approval.",
+    "evidence_section": "5",
+    "question_type": "scenario",
+    "answerable": true
+  },
+  {
+    "question_id": "IMP06-Q03",
+    "policy_id": "IMP06",
+    "question": "A system owner discovers an information security incident involving personal data. What must they do?",
+    "expected_answer": "They must act promptly and proportionately, immediately report the incident to the CISO, and report it through the Data Breach Investigation Process when personal data is involved.",
+    "evidence_section": "6.1",
+    "question_type": "scenario",
+    "answerable": true
+  },
+  {
+    "question_id": "IMP02-Q04",
+    "policy_id": "IMP02",
+    "question": "Which specific AI model or vendor is approved for use by the University?",
+    "expected_answer": "The policy does not specify an approved AI model or vendor.",
+    "evidence_section": "",
+    "question_type": "unanswerable",
+    "answerable": false
+  },
+  {
+    "question_id": "IMP06-Q04",
+    "policy_id": "IMP06",
+    "question": "Within exactly how many hours must every information security incident be reported?",
+    "expected_answer": "The policy does not specify an exact number of hours; it states that incidents must be reported immediately.",
+    "evidence_section": "6.1",
+    "question_type": "unanswerable",
+    "answerable": false
+  }
+  ,
+  {
+    "question_id": "IMP03-Q01",
+    "policy_id": "IMP03",
+    "question": "What function do University user accounts serve in the digital environment?",
+    "expected_answer": "University user accounts function as a form of identity for each member of the University in the digital environment.",
+    "evidence_section": "1.3",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "IMP07-Q01",
+    "policy_id": "IMP07",
+    "question": "What principles must the University follow when processing personal data?",
+    "expected_answer": "Personal data must be processed lawfully, fairly and transparently; collected for specified and legitimate purposes; limited to what is necessary; accurate and up to date; retained only as long as necessary; secured appropriately; and processed accountably.",
+    "evidence_section": "5.1",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "IMP08-Q01",
+    "policy_id": "IMP08",
+    "question": "What technical security controls protect access to University information systems?",
+    "expected_answer": "Controls include identification and authentication, role-based access permissions, device protection, encryption, network controls such as VPNs or firewalls, enhanced authentication for elevated privileges, supported operating systems, security updates and multi-factor authentication.",
+    "evidence_section": "6.1",
+    "question_type": "direct",
+    "answerable": true
+  },
+  {
+    "question_id": "IMP09-Q01",
+    "policy_id": "IMP09",
+    "question": "What systems and resources are covered by the Acceptable Use Policy?",
+    "expected_answer": "The policy covers the University's information systems, networks, information assets and devices, including computers and phones.",
+    "evidence_section": "1.1",
+    "question_type": "direct",
+    "answerable": true
+  }
+,
+  {
+    "question_id": "IMP03-Q02",
+    "policy_id": "IMP03",
+    "question": "A temporary member is leaving the University but may work with the University again in the future. What must happen to their system access?",
+    "expected_answer": "Their access to University systems must be revoked at the point of leaving, regardless of whether future engagement is being considered.",
+    "evidence_section": "11.1",
+    "question_type": "scenario",
+    "answerable": true
+  }
+,
+  {
+    "question_id": "IMP07-Q02",
+    "policy_id": "IMP07",
+    "question": "A department is designing a new system that will process personal data. When must data protection be considered?",
+    "expected_answer": "Data protection issues must be considered throughout the design and development of the project, service, product, process or system, and throughout the lifecycle of the relevant data processing arrangements.",
+    "evidence_section": "7.1",
+    "question_type": "scenario",
+    "answerable": true
+  }
+,
+  {
+    "question_id": "IMP08-Q02",
+    "policy_id": "IMP08",
+    "question": "An employee is given elevated device or system privileges. What authentication control must they use?",
+    "expected_answer": "They must use enhanced authentication as detailed in the IMST 02 Password Management Standard.",
+    "evidence_section": "6.1",
+    "question_type": "scenario",
+    "answerable": true
+  }
+,
+  {
+    "question_id": "IMP09-Q02",
+    "policy_id": "IMP09",
+    "question": "A user wants to create, store or transmit defamatory or obscene material using University digital services. Is this permitted?",
+    "expected_answer": "No. Creating, accessing, storing or transmitting defamatory or obscene material using University information assets or digital services is prohibited. Academic activity may be exempt when it complies with the relevant University rules and required ethical review processes.",
+    "evidence_section": "12.1",
+    "question_type": "scenario",
+    "answerable": true
+  }
+]

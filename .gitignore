@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+artifacts/*
+!artifacts/semantic_index/
+!artifacts/semantic_index/chunks.json
+!artifacts/semantic_index/embeddings.npy
+!artifacts/semantic_index/metadata.json
